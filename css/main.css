@@ -1,6 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;300;400;500;700&family=Ubuntu:ital@0;1&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid #aaa;
+}
+
 .main-nav {
-  background-color: rgb(9, 149, 110);
-  color: white;
+  background-color: rgb(77, 80, 247);
+  color: beige;
   height: 60px;
   display: flex;
   align-items: center;
@@ -10,7 +33,7 @@
 }
 .main-nav .nav-links .nav-item {
   text-decoration: none;
-  color: white;
+  color: beige;
 }
 .main-nav .nav-links .nav-item.active {
   color: cornflowerblue;

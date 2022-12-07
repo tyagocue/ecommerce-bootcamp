@@ -1,27 +1,5 @@
-.main-nav {
-    background-color: rgb(9, 149, 110);
-    color: white;
-    height: 60px;
-    display: flex;
-    align-items: center;
-
-    .nav-links {
-        padding: 2rem;
-
-        .nav-item {
-            text-decoration: none;
-            color: white;
-            &.active {
-                color: cornflowerblue;
-                font-weight: 500;
-            }
-            &:hover {
-                font-size: 1.2rem;
-                color: darkred;
-            }
-        }
-
-    }
-
-}
-
+@import"abstracts/variables";
+@import"base/reset";
+@import"base/typography";
+@import"components/card";
+@import"layout/header"
